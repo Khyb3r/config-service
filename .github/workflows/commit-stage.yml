@@ -24,7 +24,6 @@ jobs:
           java-version: 17
           cache: gradle
       - name: Build, unit tests and integration tests
-        working-directory: config-service
         run: |
           chmod +x gradlew
           ./gradlew build
